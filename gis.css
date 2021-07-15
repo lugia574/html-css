@@ -1,0 +1,32 @@
+/* codelion.css 파일입니다. 알맞은 css 코드를 채워보세요.*/
+
+.float-wrap {
+    overflow: hidden;
+}
+
+.left-item {
+    float: left;
+}
+
+.right-item {
+    float: right;
+}
+
+h1{
+    color: brown;
+}
+
+p {
+    color: darkgreen;
+    font-size: 3rem;
+}
+
+div {
+    color:  red;
+    font-size: 20px;
+    width:  300px;
+    margin: 20px;
+    padding: 10px 20px;
+    position: absolute;
+} 
+
