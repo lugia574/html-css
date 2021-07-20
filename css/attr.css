@@ -36,5 +36,7 @@
 }
 
 /* 우선 순위 */
-div{color: red; !important}
+div{
+    color: red;
+}
 #color_yellow {color: yellow;}
