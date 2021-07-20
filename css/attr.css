@@ -1,0 +1,40 @@
+
+/* 속성선택자 */
+[disabled]{
+    opacity: 0.5;
+    color: red;
+}
+
+[type="password"]{
+    opacity: 0.5;
+    color: brown;
+}
+
+/* 캐럿기호 > 시작선택자 */
+[class^="btn-"]{
+    font-weight: bolde;
+    border-radius: 20px;
+}
+
+/* $ 끝 선택자 */
+[class$=success]{
+    color: green;
+}
+
+[class$=danger]{
+    color: red;
+}
+
+/* 상속 */
+.parent{
+    position: absolute;
+}
+
+.child{
+    position: inherit;
+    /* 강제 상속 받아 부모 태그와 같은 포지션 갖음 */
+}
+
+/* 우선 순위 */
+div{color: red; !important}
+#color_yellow {color: yellow;}

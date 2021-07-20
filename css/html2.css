@@ -10,6 +10,7 @@
 
 ul{
     font-size: 30rem;
+    
 }
 ul li::after {
     content: url("https://heropy.blog/css/images/logo.png");
