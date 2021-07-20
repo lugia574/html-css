@@ -1,0 +1,17 @@
+.box{
+    width: 4rem;
+    height: 3rem;
+    background: tomato;
+}
+.box:active{
+    width: 5rem;
+    background: yellowgreen;
+}
+
+ul{
+    font-size: 30rem;
+}
+ul li::after {
+    content: url("https://heropy.blog/css/images/logo.png");
+
+}
