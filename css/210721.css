@@ -1,8 +1,23 @@
 div {
     width: auto;
     height: 100px;
-    background: tomato;
+    background: gainsboro;
 }
 span{
     background: teal;
+}
+
+.parent{
+    width: 500px;
+    height: 300px;
+    border: 4px solid tomato;
+    margin: 20px;
+}
+
+.child{
+    max-width: 300px;
+    min-width: 200px;
+    height: 200px;
+    border: 4px solid;
+    margin: 50%;
 }
