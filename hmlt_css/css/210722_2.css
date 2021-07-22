@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 300px;
+
+}
+
+.section2{
+    background-image: 
+    url("https://cdn.pixabay.com/photo/2014/07/10/17/18/battleship-389274_960_720.jpg");
+    background-size: auto 100%;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+
+.section3{
+    background-image: 
+    url("https://cdn.pixabay.com/photo/2015/07/17/22/42/library-849797_960_720.jpg");
+    background-size: auto 100%;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+
+
