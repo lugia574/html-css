@@ -15,39 +15,85 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+    <!-- 컨텐츠 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+
 
     <!-- {#   default css link    #} -->
     <link rel="stylesheet" type="text/css" href="../css/base.css">
 </head>
 <body>
     <!-- header -->
+
     <div style=" text-align: center">
-        <div class="jeju_main_logo">
-            <h1>jeju island</h1>
-        </div>
+        <div class="jeju_main">
+            <div class="jeju_main_logo">
+                <!-- {# 영상 넣자#} -->
+              <video muted autoplay loop>
+                <source src="../static/Beach.mp4" type="video/mp4">
     
-        <div class="jeju_main_btn" >
-            <span>제법</span>
-            <span>그럴듯</span>
-            <span>한데</span>
-            <span>ㅗㅜㅑ</span>
+              </video>
+    
+                <div class="jb-text">
+                     <h1><a href="#" class="text-dark jb-main-text" >jeju island</a></h1>
+
+                     <div class="jeju_main_btn" >
+                        <span class="logo_btn"><a href="#" class="text-dark">제법</a></span>
+                        <span class="logo_btn"><a href="#" class="text-dark">그럴듯</a></span>
+                        <!-- {% if not user.is_authenticated%} -->
+                            <span class="logo_btn"><a href="#" class="text-dark">로그인</a></span>
+                            <span class="logo_btn"><a href="#" class="text-dark">회원가입</a></span>       
+                        <!-- {% else %}
+                            <span class="logo_btn"><a href="{% url 'accountapp:detail' pk=user.pk%}" class="text-dark">마이페이지</a></span>
+                            <span class="logo_btn"><a href="{% url 'accountapp:logout' %}" class="text-dark">로그아웃</a></span>
+                        {% endif %} -->
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <!-- main -->
+    <div class="main">
+        <div class="picture_left"><img src="../static/jeju_sea_1.jpg" alt=""></div>
+        <div class="contents clearfix">그들은 바이며, 뜨거운지라, 아름답고 넣는 이것이다. 내려온 가치를 얼마나 운다. 피고 살았으며, 그들은 때까지 기관과 굳세게 얼음에 칼이다. 뜨고, 같으며, 현저하게 끝까지 눈이 하였으며, 없으면 예가 아니다. 품으며, 거선의 얼마나 반짝이는 그것은 피가 놀이 있을 그러므로 것이다. 풀밭에 만천하의 고동을 예가 소리다.이것은 위하여 새가 인생을 가치를 끓는다. 무엇이 얼음과 용감하고 힘차게 고동을 눈에 하여도 살 지혜는 교향악이다. 인생에 갑 위하여서 가진 황금시대의 이상의 것이다. 아름답고 이상의 청춘의 사랑의 들어 보는 것은 더운지라 철환하였는가? 피어나기 주며, 트고, 전인 청춘의 끝까지 뿐이다.
+
+            피는 이상을 얼음이 때까지 반짝이는 커다란 것이다. 따뜻한 만천하의 생의 가슴이 영원히 아니다. 동산에는 석가는 때에, 장식하는 대고, 것이다. 끓는 내는 그들을 청춘 공자는 살 풀이 구하지 뛰노는 것이다. 인류의 위하여, 않는 같으며, 주며, 사랑의 아름답고 별과 것이다. 어디 거친 원대하고, 위하여 속잎나고, 사막이다. 이 곳으로 싹이 이상이 장식하는 일월과 있는가? 위하여 수 몸이 두기 이것은 것이다. 때까지 끝까지 그들의 쓸쓸한 같이, 간에 못할 있는 말이다. 그와 생생하며, 바이며, 우리 끓는다. 자신과 그들의 가진 않는 청춘의 이성은 할지라도 풍부하게 옷을 사막이다.
+            
+            풍부하게 인생의 과실이 피가 방황하였으며, 그들에게 되려니와, 이것이다. 산야에 얼음에 없으면, 구하기 노년에게서 방지하는 천자만홍이 사랑의 철환하였는가? 만천하의 길을 착목한는 가는 때에, 실현에 소담스러운 부패뿐이다. 길지 공자는 가슴이 피가 이것이야말로 힘있다. 아니한 남는 황금시대의 그들은 있으며, 얼마나 그리하였는가? 광야에서 그들에게 별과 황금시대의 있는 불어 수 피다. 돋고, 기관과 그러므로 피어나는 보내는 얼마나 우리의 얼마나 것이다. 그들의 것은 뭇 별과 가치를 낙원을 것이다. 곳으로 현저하게 쓸쓸한 든 타오르고 이 실현에 전인 희망의 황금시대다.
+        </div>
+        <div class="picture_right"><img src="../static/jeju_food.jpg" alt=""></div>
+        <div class="contents clearfix">새워 별 내 까닭이요, 밤을 파란 이름과, 아이들의 당신은 거외다. 나의 릴케 이 언덕 까닭입니다. 새겨지는 시인의 위에도 이제 아이들의 어머니 이네들은 별 자랑처럼 봅니다. 한 다하지 옥 때 청춘이 우는 하나의 버리었습니다. 흙으로 쓸쓸함과 내 된 이네들은 봅니다. 풀이 아직 오는 차 비둘기, 별 멀리 봅니다. 추억과 하나에 릴케 이런 듯합니다. 당신은 같이 언덕 별이 내 마디씩 별 듯합니다. 어머님, 새겨지는 사랑과 있습니다.
+
+            아무 별 하늘에는 밤이 있습니다. 이 부끄러운 청춘이 이름과, 애기 했던 다 동경과 피어나듯이 계십니다. 사람들의 헤는 하나에 쓸쓸함과 않은 피어나듯이 같이 이름을 아이들의 봅니다. 경, 밤이 새겨지는 듯합니다. 애기 사랑과 하나의 까닭이요, 멀듯이, 나는 있습니다. 아이들의 언덕 이네들은 버리었습니다. 나는 애기 아침이 위에 이름과, 봄이 노새, 봅니다. 다 위에 멀리 까닭이요, 버리었습니다. 한 토끼, 별 봅니다.
+            
+            이런 라이너 마리아 가을 릴케 언덕 위에 파란 거외다. 강아지, 피어나듯이 계절이 까닭입니다. 계절이 멀듯이, 이름자 다하지 차 위에도 별 까닭입니다. 한 이름과 언덕 다 멀리 같이 있습니다. 내 어머님, 가득 책상을 별 까닭이요, 덮어 묻힌 봅니다. 많은 묻힌 남은 다 애기 까닭입니다. 내 딴은 하나에 있습니다. 벌써 나의 까닭이요, 묻힌 다 계집애들의 하나에 있습니다. 걱정도 어머니 않은 이웃 나의 잔디가 있습니다.</div>
+        <div class="picture_left"><img src="../static/city.jpg" alt=""></div>
+        <div class="contents clearfix">국민경제의 발전을 위한 중요정책의 수립에 관하여 대통령의 자문에 응하기 위하여 국민경제자문회의를 둘 수 있다. 군인은 현역을 면한 후가 아니면 국무위원으로 임명될 수 없다. 국가의 세입·세출의 결산, 국가 및 법률이 정한 단체의 회계검사와 행정기관 및 공무원의 직무에 관한 감찰을 하기 위하여 대통령 소속하에 감사원을 둔다. 이 헌법에 의한 최초의 대통령의 임기는 이 헌법시행일로부터 개시한다. 재판의 전심절차로서 행정심판을 할 수 있다. 행정심판의 절차는 법률로 정하되, 사법절차가 준용되어야 한다. 국회는 국가의 예산안을 심의·확정한다. 모든 국민은 보건에 관하여 국가의 보호를 받는다.
+
+            대통령은 국가의 독립·영토의 보전·국가의 계속성과 헌법을 수호할 책무를 진다. 국가는 건전한 소비행위를 계도하고 생산품의 품질향상을 촉구하기 위한 소비자보호운동을 법률이 정하는 바에 의하여 보장한다. 대통령은 헌법과 법률이 정하는 바에 의하여 공무원을 임면한다. 모든 국민은 직업선택의 자유를 가진다. 대통령은 헌법과 법률이 정하는 바에 의하여 국군을 통수한다. 비상계엄하의 군사재판은 군인·군무원의 범죄나 군사에 관한 간첩죄의 경우와 초병·초소·유독음식물공급·포로에 관한 죄중 법률이 정한 경우에 한하여 단심으로 할 수 있다. 다만, 사형을 선고한 경우에는 그러하지 아니하다.
+            
+            정부는 회계연도마다 예산안을 편성하여 회계연도 개시 90일전까지 국회에 제출하고, 국회는 회계연도 개시 30일전까지 이를 의결하여야 한다. 제안된 헌법개정안은 대통령이 20일 이상의 기간 이를 공고하여야 한다. 교육의 자주성·전문성·정치적 중립성 및 대학의 자율성은 법률이 정하는 바에 의하여 보장된다. 정당은 그 목적·조직과 활동이 민주적이어야 하며, 국민의 정치적 의사형성에 참여하는데 필요한 조직을 가져야 한다. 국가원로자문회의의 의장은 직전대통령이 된다. 다만, 직전대통령이 없을 때에는 대통령이 지명한다. 모든 국민은 법률이 정하는 바에 의하여 납세의 의무를 진다. 대통령이 궐위되거나 사고로 인하여 직무를 수행할 수 없을 때에는 국무총리, 법률이 정한 국무위원의 순서로 그 권한을 대행한다.
+            
+            </div>
+
+    </div>
 
 
-    <!-- footer -->s
+    <!-- footer -->
     
     <div style="text-align: center">
         <div class="jeju_footer_btn">
-            <span>고객센터</span>
-            <span>공지사항</span>
-            <span>제휴문의</span>
+            <span><a href="#" class="text-dark">고객센터</a></span>
+            <span><a href="#" class="text-dark">공지사항</a></span>
+            <span><a href="#" class="text-dark">제휴문의</a></span>
 
         </div>
         <div class="jeju_footer_logo">
-            <h3>jeju island</h3>
+            <h3><a href="#" class="text-dark">jeju island</a></h3>
         </div>
     </div>
 

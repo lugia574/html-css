@@ -1,12 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.jeju_main{
+    position: relative;
+}
 .jeju_main_logo{
     margin: 2rem 0;
     font-family: 'Gugi', cursive;
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
 }
-    /*font-family: 'Jua', sans-serif;*/
+
+
+.jeju_main_logo h1 {
+    position: absolute;
+    width: 100%;
+}
+
+.jb-text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+video { width: 100%;
+        opacity: 0.7;
+}
 
 .jeju_main_btn{
-    margin-bottom: 2rem;
+    margin-top: 7rem;
     font-family: 'Jua', sans-serif;
+
 }
 
 .jeju_footer_logo{
@@ -17,4 +49,62 @@
 .jeju_footer_btn{
     margin-bottom: 2rem;
     font-family: 'Jua', sans-serif;
+}
+
+
+.mw-500{
+    max-width: 500px;
+    padding: 1rem 1.5rem;
+}
+
+a{
+    text-decoration:none
+}
+
+.main{
+    width: 80rem;
+    height: auto;
+    margin: 1.3rem 10rem 1.3rem 10rem;
+    text-align: center;
+    position: relative;
+}
+
+.picture_left{
+    width: 30rem;
+    height: 30rem;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.picture_right{
+    width: 30rem;
+    height: 30rem;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.contents{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+img{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 10px;
+}
+
+
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+    
 }
