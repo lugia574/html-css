@@ -1,0 +1,54 @@
+article{
+
+}
+article .picture{
+    width: 200px;
+    height: 150px;
+    background: tomato;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+article .text{
+    clear: left;
+}
+
+.box{
+    width: 150px;
+    height: 100px;
+    background: tomato;
+    color: white;
+    font-size: 20PX;
+    margin: 10PX;
+    float: right;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+    
+}
+
+
+.box4{
+    width: 200px;
+    height: 100px;
+    background: orange;
+    /* clear: right; */
+    clear: both;
+}
+
+.float-box{
+    width: 100px;
+    height: 100px;
+    background: orangered;
+    margin: 10px;
+    float: left;
+}
+
+.new-box{
+    width: 250px;
+    height: 250px;
+    background: skyblue;
+}

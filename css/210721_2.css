@@ -1,0 +1,14 @@
+.lcw{
+    width: 500px;
+    height: 500px;
+    background: url("https://heropy.blog/css/images/vendor_icons/css3.png");
+    text-indent: -9999px;
+}
+div{
+
+    /* 자간 */
+    letter-spacing: 1px; 
+    /* 뛰어쓰기 길이 */
+    word-spacing: 30px;
+
+}
