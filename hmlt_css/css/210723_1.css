@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 20px;
+}
+
 .box{
     width: 100px;
     height: 100px;
@@ -30,5 +35,42 @@
     100%{
         transform: translate(0,0);
         background: tomato;
+    }
+}
+
+.boxbar{
+    width: 150px;
+    height: 100px;
+    background: tomato;
+    border-radius: 10px;
+    animation: size-up 3s linear alternate infinite ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxbar:hover{
+    animation-play-state: paused;
+    background: dodgerblue;
+}
+
+.boxbar::before{
+    content: "running";
+    font-size: 20px;
+    color: white;
+    font-weight: 700px;
+}
+
+.boxbar:hover::before{
+    content: "paused";
+    
+}
+
+@keyframes size-up{
+    0%{
+        width: 150px;
+    }
+    100%{
+        width: 100%;
     }
 }
