@@ -1,0 +1,26 @@
+1. Container
+    ● display - 컨테이너를 수직으로 쌓을꺼냐 수평으로 쌓을꺼냐
+        flex > 수직 
+        inline-flex > 수평
+    
+    ● flex-flow - 아이템의 주 축 설정 , 아이템의 줄 묶음 설정
+        flex-direction >  주 축 설정
+            row (기본) : 윈쪽에서 오른 (A B C   )
+            row-reverse : 오른에서 왼  (   C B A)
+            column : 위에서 아래               A       C
+            column-reverse : 아래에서 위       B       B
+                                               C       A       
+
+        flex-wrap > 줄 묶음(줄 바꿈) 설정
+            nowrap (기본) : 한 줄에 표시
+            wrap : 아이템을 여러 줄로 묶음
+            wrap-reverse : 역방향으로 여러줄
+
+
+        EX) .flex-container {
+                flex-flow: row-reverse wrap;
+            }
+    
+
+    ● justify-content - 주 축의 정렬 방법 설정
+        flex-start >
