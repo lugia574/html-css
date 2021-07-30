@@ -1,3 +1,4 @@
+/* COMMON */
 .body__containerody{
     font-family: 'Roboto' , sans-serif;
     font-size: 16px;
@@ -7,6 +8,25 @@
     color: #333; 
 
 }
+
+a{
+    text-decoration: none;
+}
+
+/* FLOAT CLEARFIX */
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.float--left{
+    float: left;
+}
+.float--right{
+    float: right;
+}
+
 /* BUTTON */
 .btn{
     height: 34px;
@@ -19,6 +39,7 @@
     padding: 0 12px;
     font-size: 14px;
     font-weight: 500;
+    color: #333;
     /* 행간격 */
     line-height: 1.5;
     cursor: pointer;
@@ -120,4 +141,49 @@ header .main-menu li a{
     display: block;
     padding: 10px;
     color: #3c4146;
+}
+
+header .main-menu li a:hover{
+    color: #4078c0;
+}
+
+header .sign-group{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header .btn-group{
+    order:2;
+    display: flex;
+}
+
+header .btn-group .sign-in{
+    margin-right: 4px;
+}
+
+#search-form{
+    order:1;
+    margin-right: 12px;
+}
+#search{
+    width: 160px;
+    font-size: 14px;
+}
+#search + [type="submit"]{
+    display: none;
+}
+header .sub-menu{
+    display: flex;
+    margin-right: 12px;
+}
+
+header .sub-menu li a{
+    padding: 8px;
+    display: block;
+    font-size: 13px;
+    color: #3c4146;
+}
+header .sub-menu li a:hover{
+    color: #4078c0;
 }
