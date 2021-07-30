@@ -91,12 +91,33 @@ header .inner{
 
 header .menu-group{
     display: flex;
+    align-items: center;
+    height: 100%;
+    /* inner의 높이를 다 쓴다 */
 }
 
 header .logo{
+    margin-right: 10px;
+}
 
+header .logo a{
+    width: 32px;
+    height: 32px;
+    display: block;
+    text-indent: -9999px;
+    background: url(../img/logo.svg);
+}
+
+header .logo a:hover{
+    background: url(../img/logo_on.svg);
 }
 
 header .main-menu{
     display: flex;
+}
+
+header .main-menu li a{
+    display: block;
+    padding: 10px;
+    color: #3c4146;
 }
