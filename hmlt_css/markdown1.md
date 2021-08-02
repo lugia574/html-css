@@ -69,7 +69,64 @@ https://google.com <br>
 `background` 혹은 `background-img` 속성으로 요소에 배경 삽입 가능
 
 #### 블록 코드 강조
-```
-html <a href= "https://google.co.kr">
+```html 
+<div id="hi" style="color:red;"></div>
 <span> 안녕녕 </span>
 ```
+
+```css 
+#markdown{
+    position:absolute;
+    margin: 10px;
+    width: 150px;
+}
+
+```
+
+```js 
+function hello(){
+    return {};
+}
+```
+
+### position의 값
+값 | 의미 | 기본값 
+--: | :---: | --: 
+`static` | 유형(기준) 없음/ 배치 불가능 | 'static' 
+`relative` | 요소 **자신**을 기분으로 배치 |
+`absolute` | 부모 요소를 기준으로 배치
+`fixed` | 브라우저 창을 기준으로 배치
+
+
+### 인용문
+> 요호호호호
+>> 오효효효효수 해버릴라 <br>
+>> 그럴까요~
+>>> 슈슈슉슈수슉
+
+
+### 원시 HTML
+<blockquote>원시 저그인가?</blockquote>
+<br>
+<img src="https://post-phinf.pstatic.net/MjAyMTA3MjlfODUg/MDAxNjI3NTQ0MzM4MDI0.mymY-rU3TsgnaDspF5wsWs34d66yJmRG--kR-z0RCh4g.Elna33LKvugJLzVj7STgpCOO8bHgoz2fgEOFO3DVBBgg.JPEG/%EC%84%A4%ED%91%9C7777.jpg?type=w1200" alt="커여운 표범" width="500"
+>
+
+### 수평선
+---
+엄청나군
+
+***
+이렇게도 된다네
+___
+요호호호
+
+### 줄 바꿈
+- 뛰어 쓰기 두번을 쓰면 됨
+- 근데 안될수도 있으니까 `<br>` 태그를 쓰자
+---
+
+동해물과 백두산이 마르고 닳도록  
+하느님이 보우하사 우리나라 만세  
+무궁화 삼천리 화려 강산  
+대한 사람 대한으로 길이 보전하세  
+
