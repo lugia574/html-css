@@ -155,6 +155,7 @@ div{
     padding: 15px;
 }
 
+
 .content{
     padding-top: 12px;
     padding-right: 5px;
