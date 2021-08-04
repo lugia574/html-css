@@ -27,6 +27,34 @@ a{
     float: right;
 }
 
+/* SUMMARY */
+.summary__title{
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 1.25;
+    margin-bottom: 18px;
+}
+
+.summary__description{
+    font-size: 26px;
+    font-weight: 300;
+    color: #767676;
+    line-height: 1.5;
+}
+
+/* SECTION & INNER */
+.section{
+    position: relative;
+}
+
+.section .inner{
+    max-width: 980px;
+    margin: 0 auto;
+    /* 여백이 생겨 무분별하게 늘어나는거 방지 */
+    box-sizing: border-box;
+    position: relative;
+}
+
 /* BUTTON */
 .btn{
     height: 34px;
@@ -104,9 +132,7 @@ header{
 }
 
 header .inner{
-    max-width: 980px;
     height: 78px;
-    margin: 0 auto;
     /* 중앙정렬 >> 가로 사이즈가 정의 되어야 가능함 */
 }
 
@@ -171,6 +197,7 @@ header .btn-group .sign-in{
     font-size: 14px;
 }
 #search + [type="submit"]{
+    /*   '+' 다음 형제 요소  */
     display: none;
 }
 header .sub-menu{
@@ -186,4 +213,38 @@ header .sub-menu li a{
 }
 header .sub-menu li a:hover{
     color: #4078c0;
+}
+
+/* VISUAL */
+
+.section--visual{
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: cover;
+}
+.section--visual::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .3);
+}
+.section--visual .inner{
+    padding: 160px 0;
+}
+
+.section--visual .summary__title{
+    color: #fff;
+    font-size: 54px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .25),
+                0 1px 25px rgba(0, 0, 0, .75);
+}
+
+.section--visual .summary__description{
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .25),
+                0 1px 25px rgba(0, 0, 0, .75);
 }
