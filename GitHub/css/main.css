@@ -322,3 +322,46 @@ header .sub-menu li a:hover{
     width: 100%;
     height: 100%;
 }
+
+.section--feature .titles{
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.section--feature .titles .inner{
+    max-width: 1200px;
+}
+
+.section--feature .titles ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.section--feature .titles li{
+    padding: 34px 24px;
+    text-align: center;
+    line-height: 1.5;
+    border-right: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+.section--feature .titles li:last-child{
+    border-right: none;
+}
+
+.section--feature .titles li img{
+    max-width: 100%;
+    padding: 14px 10% 24px;
+    box-sizing: border-box;
+}
+
+.section--feature .titles li h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.section--feature .titles li p{
+    font-size: 14px;
+    color: #767676;
+}
