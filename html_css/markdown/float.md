@@ -96,4 +96,3 @@
 
 ## 3. display 수정
     float 속성이 추가된 요소는 display 속성값이 대부분 block으로 수정됨
-
