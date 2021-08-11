@@ -36,5 +36,18 @@
 <br>
 
 ### 4. sticky
-> top, left 등의 값이 한개 이상이 있어야 함 <br>
-> IE 지원 불가
+> top, left 등의 속성값이 한개 이상이 있어야 함 <br>
+> IE 지원 불가 <br>
+
+
+
+## 요소 쌓임 z 축
+    1. static을 제외한 position 속성의 값이 있을 경우 가장 위에 쌓임
+    2. position 이 모두 존재 한다면 z-index 속성의 숫자 값이 높을 수록  위에 쌓임
+    3. position 속성의 값이 있고, z-index속성의 숫자값이 같다면
+    html 의 마지막 코드일 수록 위에 쌓임
+
+
+## display 수정
+    absolute, fixed 속성 값이 적용된 요소는 display 속성의 값이 대부분 block으로 수정됨
+
