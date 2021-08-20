@@ -467,3 +467,45 @@ header .sub-menu li a:hover{
   footer .logo:hover svg{
     fill: #4078c0;
   }
+
+  /* MEDIA */
+
+  @media (max-width: 1024px){
+      header .section .inner{
+          max-width: none;
+          height: auto;
+          padding: 0 20px;
+      }
+
+      header .menu-group,
+      header .sign-group{
+          float: none;
+      }
+
+
+      /* 메뉴바가 사라지게 해야함 */
+      header .toggle{
+          display: none;
+          /* 화면에서 사라져라 */
+      }
+
+      
+      header .logo {
+          padding: 12px;
+      }
+
+      /* 햄버거 버튼 만들기 */
+      #toggle-btn{
+          background: url("../img/toggle-btn.svg");
+          width: 18px;
+          height: 24px;
+          position: absolute;
+          top: 16px;
+          right: 20px;
+          cursor: pointer;
+          /* 커서 손모양으로 바꾸기 */
+          text-indent: -9999px;
+          /* text 밀어내기 */
+      }
+      
+  }
